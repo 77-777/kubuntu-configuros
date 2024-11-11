@@ -2,7 +2,15 @@
 
 > On a stock 24.04.01 LTS, fresh installation of Kubuntu.
 
-# Packages
+## Preliminary
+
+```bash
+# Change scheduler
+
+# Change Kernel parameters.
+```
+
+## Packages
 
 ```bash
 #!/bin/bash
