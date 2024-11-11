@@ -44,10 +44,10 @@
     apt-get install discord hexchat
 
   ### Security
-    apt-get install pass keepass veracrypt
+    apt-get install pass keepass veracrypt timeshift
 
   ### Multimedia
-    apt-get install vlc audacity handbrake lmms openshot-qt
+    apt-get install vlc audacity handbrake lmms openshot-qt cheese
 
   ### Graphics
     apt-get install gimp blender inkscape imagemagick
@@ -59,7 +59,7 @@
     apt-get install anki cherrytree xmind sublime vscode evince
 
   ### Networking
-    apt-get install akregator anydesk teamviewer filezilla wireshark
+    apt-get install akregator quiterss anydesk teamviewer filezilla wireshark
 
   ### System
     apt-get install virtualbox
@@ -94,8 +94,8 @@
   ### Misc
     # apt-get install fastfetch element-web guake yakuake scribus i3 desmume dolphin-emu ppsspp-qt iptables # gparted gnome-system-manager/monitor
 
-  ### Not in Nixos Repository
-    # apt-get install freedownloadmanager citra nixnode2 caesium cheese clonespy # quiterss [some qtwebkit error]
+  ### Not in Kubuntu Repository
+    # apt-get install freedownloadmanager citra nixnode2 caesium clonespy
 
   ### anything for ntfs mounter?
     # ???
