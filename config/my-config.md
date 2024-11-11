@@ -15,10 +15,10 @@
   #########################################################
 
   ### Essentials
-    apt-get install gcc gnupg git gnumake openjdk coreutils-full util-linux alsa-utils
+    apt-get install gcc g++ gpg git make openjdk coreutils-full util-linux alsa-utils net-tools
 
   ### Preliminary
-    apt-get install nano vim emacs htop tree neofetch wget unrar p7zip rsync srm openssh
+    apt-get install nano vim emacs htop tree neofetch wget unrar 7zip rsync srm openssh
 
   ### Terminal
     apt-get install tmux irssi rtorrent lynx tty-clock slock weechat scrot
@@ -63,9 +63,9 @@
     apt-get install steam lutris
 
   ### Miscellaneous, Fonts, Etc
-    apt-get install pkgs.roboto
-    apt-get install pkgs.awesome
-    apt-get install xfce.thunar
+    apt-get install roboto
+    apt-get install awesome
+    apt-get install thunar
 
   #########################################################
   ## Extras
