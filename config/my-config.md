@@ -22,7 +22,7 @@
 #!/bin/bash
 # This bash script is to be run as root/sudo.
 
-## Some package asked me for email configuration and toggled a prompt, cutting automation. Need to find out which.
+## Some package asked me for email configuration and toggled a prompt, cutting automation. Need to find out which. It was before installing irssi set of pkgs.
 
 ## Packages to install.
 
