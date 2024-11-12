@@ -84,6 +84,7 @@
     apt -y install awesome
     apt -y install thunar
     # apt -y install nushell # installed by snap.
+    # apt -y install moz-fcitx
 
   #########################################################
   ## Extras
