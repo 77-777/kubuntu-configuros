@@ -2,6 +2,12 @@
 
 > On a stock 24.04.01 LTS, fresh installation of Kubuntu.
 
+## Common Commands
+
+```bash
+# APT replaces APT-GET.
+```
+
 ## Preliminary
 
 ```bash
@@ -23,10 +29,10 @@
   #########################################################
 
   ### Essentials
-    apt-get install gcc g++ gpg git make openjdk coreutils-full util-linux alsa-utils net-tools
+    apt-get install gcc g++ gpg git make default-jdk util-linux alsa-utils net-tools # was openjdk and coreutils-full
 
   ### Preliminary
-    apt-get install nano vim emacs htop tree neofetch wget unrar 7zip rsync srm openssh
+    apt-get install nano vim emacs htop tree neofetch wget unrar 7zip rsync secure-delete ssh # was openssh and srm
 
   ### Terminal
     apt-get install tmux irssi rtorrent lynx tty-clock slock weechat scrot
@@ -41,10 +47,10 @@
     apt-get install deluge transmission transmission-qt
 
   ### Communication
-    apt-get install discord hexchat
+    apt-get install hexchat # install discord from snap
 
   ### Security
-    apt-get install pass keepass veracrypt timeshift
+    apt-get install pass keepass2 timeshift # install veracrypt from separate repository. keepass became keepass2.
 
   ### Multimedia
     apt-get install vlc audacity handbrake lmms openshot-qt cheese
