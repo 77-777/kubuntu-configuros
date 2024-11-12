@@ -83,6 +83,7 @@
     apt -y install fonts-roboto # was roboto
     apt -y install awesome
     apt -y install thunar
+    # apt -y install nushell # installed by snap.
 
   #########################################################
   ## Extras
