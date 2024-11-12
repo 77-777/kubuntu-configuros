@@ -59,13 +59,13 @@
     apt-get install gimp blender inkscape imagemagick
 
   ### Office
-    apt-get install libreoffice pdfsam-basic staruml yacreader
+    apt-get install libreoffice pdfsam # pdfsam waas pdfsam-basic. staruml yacreader not found at all. separate repository?
 
   ### Accessories
-    apt-get install anki cherrytree xmind sublime vscode evince
+    apt-get install anki cherrytree evince # xmind sublime vscode
 
   ### Networking
-    apt-get install akregator quiterss anydesk teamviewer filezilla wireshark
+    apt-get install akregator quiterss filezilla wireshark # install anydesk and teamviewer from snap
 
   ### System
     apt-get install virtualbox
@@ -77,7 +77,7 @@
     apt-get install steam lutris
 
   ### Miscellaneous, Fonts, Etc
-    apt-get install roboto
+    apt-get install fonts-roboto # was roboto
     apt-get install awesome
     apt-get install thunar
 
