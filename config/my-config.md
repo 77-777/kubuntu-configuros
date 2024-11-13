@@ -32,10 +32,12 @@
   #########################################################
 
   ### Essentials
-    apt -y install gcc g++ gpg git make default-jdk util-linux alsa-utils net-tools # was openjdk and coreutils-full
+    apt -y install gcc g++ gpg git make default-jdk util-linux alsa-utils net-tools
+    # was openjdk and coreutils-full
 
   ### Preliminary
-    apt -y install nano vim emacs htop tree neofetch wget unrar 7zip rsync secure-delete ssh # was openssh and srm
+    apt -y install nano vim emacs htop tree neofetch wget unrar 7zip rsync secure-delete ssh
+    # was openssh and srm
 
   ### Terminal
     apt -y install tmux irssi rtorrent lynx tty-clock slock weechat scrot
@@ -62,13 +64,14 @@
     apt -y install gimp blender inkscape imagemagick
 
   ### Office
-    apt -y install libreoffice pdfsam # pdfsam waas pdfsam-basic. staruml yacreader not found at all. separate repository?
+    apt -y install libreoffice pdfsam
+    # pdfsam was pdfsam-basic
 
   ### Accessories
-    apt -y install anki cherrytree evince # vscode
+    apt -y install anki cherrytree evince
 
   ### Networking
-    apt -y install akregator quiterss filezilla wireshark # install anydesk and teamviewer from snap
+    apt -y install akregator quiterss filezilla wireshark
 
   ### System
     apt -y install virtualbox
@@ -80,7 +83,7 @@
     apt -y install steam lutris
 
   ### Miscellaneous, Fonts, Etc
-    apt -y install fonts-roboto # was roboto
+    apt -y install fonts-roboto
     apt -y install awesome
     apt -y install thunar
     # apt -y install moz-fcitx
@@ -91,6 +94,10 @@
     snap install opera
     snap install xmind
     snap install sublime-text --classic
+    snap install code --classic
+
+    # staruml yacreader not found at all, nor on snap. separate repository?
+    # install anydesk and teamviewer from snap
 
   ### External Repositories
     add-apt-repository ppa:unit193/encryption -y
