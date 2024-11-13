@@ -50,10 +50,10 @@
     apt -y install deluge transmission transmission-qt
 
   ### Communication
-    apt -y install hexchat # install discord from snap
+    apt -y install hexchat
 
   ### Security
-    apt -y install pass keepass2 timeshift # install veracrypt from separate repository. keepass became keepass2.
+    apt -y install pass keepass2 timeshift
 
   ### Multimedia
     apt -y install vlc audacity handbrake lmms openshot-qt cheese
@@ -65,7 +65,7 @@
     apt -y install libreoffice pdfsam # pdfsam waas pdfsam-basic. staruml yacreader not found at all. separate repository?
 
   ### Accessories
-    apt -y install anki cherrytree evince # xmind sublime vscode
+    apt -y install anki cherrytree evince # vscode
 
   ### Networking
     apt -y install akregator quiterss filezilla wireshark # install anydesk and teamviewer from snap
@@ -83,8 +83,19 @@
     apt -y install fonts-roboto # was roboto
     apt -y install awesome
     apt -y install thunar
-    # apt -y install nushell # installed by snap.
     # apt -y install moz-fcitx
+
+  ### Snap Repository
+    snap install discord
+    snap install nushell --classic
+    snap install opera
+    snap install xmind
+    snap install sublime-text --classic
+
+  ### External Repositories
+    add-apt-repository ppa:unit193/encryption -y
+    apt update
+    apt -y install veracrypt
 
   #########################################################
   ## Extras
