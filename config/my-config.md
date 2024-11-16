@@ -6,6 +6,9 @@
 
 ```bash
 # APT replaces APT-GET.
+
+sudo apt install <package>
+sudo apt install ./<deb_file>.deb
 ```
 
 ## Preliminary
@@ -104,13 +107,14 @@
     flatpak install anydesk
     flatpak install yacreader
 
-    # staruml yacreader not found at all, nor on snap. separate repository?
-    # install anydesk and teamviewer from snap
-
   ### External Repositories
     add-apt-repository ppa:unit193/encryption -y
     apt update
     apt -y install veracrypt
+
+  ## Manual Installation - Need to download .deb from official website
+    # sudo apt install ./teamviewer.deb
+    # sudo apt install ./staruml.deb
 
   #########################################################
   ## Extras
