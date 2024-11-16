@@ -88,6 +88,10 @@
     apt -y install thunar
     # apt -y install moz-fcitx
 
+    apt -y install flatpak
+    apt -y install gnome-software-plugin-flatpak
+    flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo ## reboot after this
+
   ### Snap Repository
     snap install discord
     snap install nushell --classic
@@ -95,6 +99,10 @@
     snap install xmind
     snap install sublime-text --classic
     snap install code --classic
+
+  ### Flatpak Repository
+    flatpak install anydesk
+    flatpak install yacreader
 
     # staruml yacreader not found at all, nor on snap. separate repository?
     # install anydesk and teamviewer from snap
