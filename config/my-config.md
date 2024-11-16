@@ -44,6 +44,7 @@ sudo apt install ./<deb_file>.deb
 
   ### Terminal
     apt -y install tmux irssi rtorrent lynx tty-clock slock weechat scrot
+    # need commandline diagnostic tools for: disk, memory, io, cpu, threads, processes, etc.
 
   ### Browser
     apt -y install firefox chromium
