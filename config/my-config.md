@@ -105,6 +105,7 @@ sudo apt install ./<deb_file>.deb
     snap install code --classic
     snap install dolphin-emulator
     snap install ppsspp-emu
+    # snap install element-desktop # already comes installed.
 
   ### Flatpak Repository
     flatpak install anydesk
@@ -140,11 +141,11 @@ sudo apt install ./<deb_file>.deb
     # amarok not existant.
 
   ### Misc
-    # apt -y install guake yakuake scribus i3 desmume iptables # gparted gnome-system-monitor
-    # fastfetch (hyfetch?), element-web, not existant.
+    # apt -y install nixnote2 guake yakuake scribus i3 desmume iptables # gparted gnome-system-monitor
+    # fastfetch (hyfetch?) not existant.
 
   ### Not in Kubuntu Repository
-    # apt -y install nixnode2 caesium clonespy
+    # apt -y install caesium clonespy
 
   ### anything for ntfs mounter?
     # ???
