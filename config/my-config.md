@@ -102,10 +102,14 @@ sudo apt install ./<deb_file>.deb
     snap install xmind
     snap install sublime-text --classic
     snap install code --classic
+    snap install dolphin-emulator
+    snap install ppsspp-emu
 
   ### Flatpak Repository
     flatpak install anydesk
     flatpak install yacreader
+    flatpak install lime3ds # fork of citra, continuing it. citra is dead.
+    flatpak install freedownloadmanager # alternative - (xdman? [xtreme download manager])
 
   ### External Repositories
     add-apt-repository ppa:unit193/encryption -y
@@ -127,16 +131,19 @@ sudo apt install ./<deb_file>.deb
     apt -y install wine wine64 winetricks
 
   ### Alternatives
-    # apt -y install evolution qemu subversion mercurial
+    # apt -y install evolution qemu-system subversion mercurial
+    # was qemu
 
   ### KDE Flavours
-    # apt -y install kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive konqueror amarok
+    # apt -y install kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive konqueror
+    # amarok not existant.
 
   ### Misc
-    # apt -y install fastfetch element-web guake yakuake scribus i3 desmume dolphin-emu ppsspp-qt iptables # gparted gnome-system-manager/monitor
+    # apt -y install guake yakuake scribus i3 desmume iptables # gparted gnome-system-monitor
+    # fastfetch (hyfetch?), element-web, not existant.
 
   ### Not in Kubuntu Repository
-    # apt -y install freedownloadmanager citra nixnode2 caesium clonespy
+    # apt -y install nixnode2 caesium clonespy
 
   ### anything for ntfs mounter?
     # ???
