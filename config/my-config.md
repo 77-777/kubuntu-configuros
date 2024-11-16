@@ -88,8 +88,8 @@ sudo apt install ./<deb_file>.deb
 
   ### Miscellaneous, Fonts, Etc
     apt -y install fonts-roboto
-    apt -y install awesome
-    apt -y install thunar
+    # apt -y install awesome
+    # apt -y install thunar
     # apt -y install moz-fcitx
 
     apt -y install flatpak
