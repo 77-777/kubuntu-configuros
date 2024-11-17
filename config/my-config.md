@@ -26,19 +26,22 @@ add-apt-repository ppa:<repo_name>/encryption -y
 ## Preliminary
 
 ```bash
-# Change scheduler
-sudo echo bfq > /sys/block/nvme0n1/queue/scheduler
-sudo cat /sys/block/nvme0n1/queue/scheduler
+# Change su password, as you cannot login directly. Root is locked by default.
+sudo passwd root
 
-# Change Kernel parameters.
-sudo sysctl vm.dirty_background_bytes=2500000 #4194304
-sudo sysctl vm.dirty_bytes=2500000 #4194304
+# Change scheduler (as su)
+echo bfq > /sys/block/nvme0n1/queue/scheduler
+cat /sys/block/nvme0n1/queue/scheduler
 
-sudo sysctl vm.dirty_ratio=3
-sudo sysctl vm.dirty_background_ratio=2
+# Change Kernel parameters. (as su)
+sysctl vm.dirty_background_bytes=2500000 #4194304
+sysctl vm.dirty_bytes=2500000 #4194304
 
-sudo sysctl vm.vfs_cache_pressure=10
-sudo sysctl vm.swappiness=10
+sysctl vm.dirty_ratio=3
+sysctl vm.dirty_background_ratio=2
+
+sysctl vm.vfs_cache_pressure=10
+sysctl vm.swappiness=10
 ```
 
 ## Packages
