@@ -95,14 +95,14 @@ sysctl vm.swappiness=10
     apt -y install vlc audacity handbrake lmms openshot-qt cheese obs-studio
 
   ### Graphics
-    apt -y install gimp blender inkscape imagemagick xpaint
+    apt -y install gimp blender inkscape imagemagick converseen xpaint
 
   ### Office
     apt -y install libreoffice pdfsam
     # pdfsam was pdfsam-basic
 
   ### Accessories
-    apt -y install anki cherrytree evince synapse plank meld
+    apt -y install anki cherrytree evince synapse plank meld fdupes
 
   ### Networking
     apt -y install akregator quiterss filezilla wireshark
@@ -175,8 +175,5 @@ sysctl vm.swappiness=10
   ### Misc
     # apt -y install nixnote2 guake yakuake scribus i3 desmume iptables # gparted gnome-system-monitor
     # fastfetch (hyfetch?) not existant.
-
-  ### Not in Kubuntu Repository
-    # apt -y install caesium clonespy
 
 ```
