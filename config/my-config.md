@@ -65,7 +65,7 @@ sudo apt install ./<deb_file>.deb
     apt -y install vlc audacity handbrake lmms openshot-qt cheese
 
   ### Graphics
-    apt -y install gimp blender inkscape imagemagick
+    apt -y install gimp blender inkscape imagemagick xpaint
 
   ### Office
     apt -y install libreoffice pdfsam
@@ -137,7 +137,7 @@ sudo apt install ./<deb_file>.deb
     # was qemu
 
   ### KDE Flavours
-    # apt -y install kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive konqueror
+    # apt -y install kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita kolourpaint ## okular kdenlive konqueror
     # amarok not existant.
 
   ### Misc
