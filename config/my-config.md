@@ -43,7 +43,7 @@ sudo apt install ./<deb_file>.deb
     # was openssh and srm
 
   ### Terminal
-    apt -y install tmux irssi rtorrent lynx tty-clock slock weechat scrot
+    apt -y install tmux mc irssi rtorrent lynx tty-clock slock weechat scrot
     # need commandline diagnostic tools for: disk, memory, io, cpu, threads, processes, etc.
 
   ### Browser
@@ -56,7 +56,7 @@ sudo apt install ./<deb_file>.deb
     apt -y install deluge transmission transmission-qt
 
   ### Communication
-    apt -y install hexchat
+    apt -y install hexchat pidgin
 
   ### Security
     apt -y install pass keepass2 timeshift
@@ -72,13 +72,13 @@ sudo apt install ./<deb_file>.deb
     # pdfsam was pdfsam-basic
 
   ### Accessories
-    apt -y install anki cherrytree evince
+    apt -y install anki cherrytree evince synapse plank
 
   ### Networking
     apt -y install akregator quiterss filezilla wireshark
 
   ### System
-    apt -y install virtualbox
+    apt -y install virtualbox # get a usb writer too.
 
   ### Development
     apt -y install codeblocks ruby texmaker
@@ -100,7 +100,7 @@ sudo apt install ./<deb_file>.deb
     snap install discord
     snap install nushell --classic
     snap install opera
-    snap install xmind
+    snap install xmind # minder may be opensource alternative to it?
     snap install sublime-text --classic
     snap install code --classic
     snap install dolphin-emulator
