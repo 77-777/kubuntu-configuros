@@ -46,16 +46,16 @@ sudo apt autoremove
   #########################################################
 
   ### Essentials
-    apt -y install gcc g++ gpg git make default-jdk alsa-utils gdebi # find what out this one does.
-    # was openjdk and coreutils-full
+    apt -y install gcc g++ gpg git make default-jdk alsa-utils ntfs-3g gdebi # find what out this one does.
+    # was openjdk and coreutils-full. ntfs-3g used to be called "ntfsprogs"
 
   ### Preliminary
     apt -y install nano vim emacs tree wget unrar 7zip rsync secure-delete ssh curl
     # was openssh and srm
 
-  ## Diagnostics - commandline diagnostic tools for: disk, memory, io, cpu, threads, processes, etc.
-    apt -y install htop neofetch net-tools util-linux sysstat iotop nethogs iftop, nmon, nmap
-    # List: h/top, iostat, vmstat, iotop, lsof, ps, nethogs, iftop, nmon, lsblk, df, nmap
+  ## Diagnostic Tools
+    apt -y install htop neofetch net-tools util-linux sysstat iotop nethogs iftop, nmon, nmap, glances, radeontop # intel-gpu-tools
+    # List: h/top, iostat, vmstat, iotop, lsof, ps, lshw, lspci, lsusb nethogs, iftop, nmon, lsblk, df, nmap, glances, radeontop, aptitude # intel_gpu_top
 
   ### Terminal
     apt -y install tmux mc irssi rtorrent lynx tty-clock slock weechat scrot
