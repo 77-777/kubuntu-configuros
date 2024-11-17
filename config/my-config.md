@@ -71,7 +71,7 @@ sysctl vm.swappiness=10
 
   ## Diagnostic Tools
     apt -y install htop neofetch net-tools util-linux sysstat iotop nethogs iftop, nmon, nmap, glances, radeontop # intel-gpu-tools
-    # List: h/top, iostat, vmstat, iotop, lsof, ps, lshw, lspci, lsusb, modprobe, nethogs, iftop, nmon, lsblk, df, nmap, glances, radeontop, aptitude # intel_gpu_top
+    # List: h/top, iostat, vmstat, iotop, lsof, ps, lshw, lspci, lsusb, modprobe, systemctl, nethogs, iftop, nmon, lsblk, df, nmap, glances, radeontop, aptitude intel_gpu_top
 
   ### Terminal
     apt -y install tmux mc irssi rtorrent lynx tty-clock slock weechat scrot
