@@ -76,7 +76,7 @@ sysctl vm.swappiness=10
     # was openjdk and coreutils-full. ntfs-3g used to be called "ntfsprogs"
 
   ### Preliminary
-    apt -y install nano vim emacs tree wget unrar 7zip rsync secure-delete ssh curl
+    apt -y install nano vim tree wget unrar 7zip rsync secure-delete ssh curl
     # was openssh and srm
 
   ## Diagnostic Tools
@@ -158,6 +158,7 @@ sysctl vm.swappiness=10
   #########################################################
 
   ### Broken automation packages - install manually - ncurses gets in the way even with -y
+    # apt -y install emacs
     # apt -y install wireshark
 
   ## Manual Installation - Need to download .deb from official website
