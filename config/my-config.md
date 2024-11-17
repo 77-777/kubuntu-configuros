@@ -53,9 +53,19 @@ sysctl vm.swappiness=10
 # This bash script is to be run as root/sudo.
 
 ## Some package asked me for email configuration and toggled a prompt, cutting automation. Need to find out which. It was before installing irssi set of pkgs.
-## Wireshark also prompts to ask if non-superusers should be able to capture packets.
 
 ## Packages to install.
+
+  #########################################################
+  ## Prepare Repositories
+  #########################################################
+
+  add-apt-repository ppa:unit193/encryption -y
+  apt update
+
+  apt -y install flatpak
+  apt -y install gnome-software-plugin-flatpak
+  flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo ## reboot after this
 
   #########################################################
   ## Lean and Mean
@@ -105,7 +115,7 @@ sysctl vm.swappiness=10
     apt -y install anki cherrytree evince synapse plank meld dupeguru fdupes
 
   ### Networking
-    apt -y install akregator quiterss filezilla wireshark
+    apt -y install akregator quiterss filezilla
 
   ### System
     apt -y install virtualbox # get a usb writer too.
@@ -121,10 +131,6 @@ sysctl vm.swappiness=10
     # apt -y install awesome
     # apt -y install thunar
     # apt -y install moz-fcitx
-
-    apt -y install flatpak
-    apt -y install gnome-software-plugin-flatpak
-    flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo ## reboot after this
 
   ### Snap Repository
     snap install discord
@@ -144,10 +150,11 @@ sysctl vm.swappiness=10
     flatpak install lime3ds # fork of citra, continuing it. citra is dead.
     flatpak install freedownloadmanager # alternative - (xdman? [xtreme download manager])
 
-  ### External Repositories
-    add-apt-repository ppa:unit193/encryption -y
-    apt update
+  ### From External Repositories
     apt -y install veracrypt
+
+  ### Broken automation packages - ncurses gets in the way even with -y
+    apt -y install wireshark
 
   ## Manual Installation - Need to download .deb from official website
     # sudo apt install ./teamviewer.deb
