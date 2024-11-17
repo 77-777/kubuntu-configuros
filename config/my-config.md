@@ -20,14 +20,25 @@ sudo apt upgrade
 sudo apt autoremove
 
 # Add repository
+add-apt-repository ppa:<repo_name>/encryption -y
 ```
 
 ## Preliminary
 
 ```bash
 # Change scheduler
+sudo echo bfq > /sys/block/nvme0n1/queue/scheduler
+sudo cat /sys/block/nvme0n1/queue/scheduler
 
 # Change Kernel parameters.
+sudo sysctl vm.dirty_background_bytes=2500000 #4194304
+sudo sysctl vm.dirty_bytes=2500000 #4194304
+
+sudo sysctl vm.dirty_ratio=3
+sudo sysctl vm.dirty_background_ratio=2
+
+sudo sysctl vm.vfs_cache_pressure=10
+sudo sysctl vm.swappiness=10
 ```
 
 ## Packages
@@ -162,11 +173,5 @@ sudo apt autoremove
 
   ### Not in Kubuntu Repository
     # apt -y install caesium clonespy
-
-  ### anything for ntfs mounter?
-    # ???
-
-  ### what about setting scheduler and kernel vm parameters?
-    # ???
 
 ```
