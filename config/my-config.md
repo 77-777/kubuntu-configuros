@@ -18,6 +18,8 @@ sudo apt upgrade
 
 # Cleanup
 sudo apt autoremove
+
+# Add repository
 ```
 
 ## Preliminary
