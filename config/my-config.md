@@ -9,6 +9,15 @@
 
 sudo apt install <package>
 sudo apt install ./<deb_file>.deb
+
+# Refresh the repository / get updates.
+sudo apt update
+
+# Install updates
+sudo apt upgrade
+
+# Cleanup
+sudo apt autoremove
 ```
 
 ## Preliminary
@@ -106,6 +115,7 @@ sudo apt install ./<deb_file>.deb
     snap install dolphin-emulator
     snap install ppsspp-emu
     # snap install element-desktop # already comes installed.
+    # snap install emby-server
 
   ### Flatpak Repository
     flatpak install anydesk
@@ -121,6 +131,7 @@ sudo apt install ./<deb_file>.deb
   ## Manual Installation - Need to download .deb from official website
     # sudo apt install ./teamviewer.deb
     # sudo apt install ./staruml.deb
+    # java -jar ubooquity.jar
 
   #########################################################
   ## Extras
