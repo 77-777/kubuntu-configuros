@@ -102,7 +102,7 @@ sysctl vm.swappiness=10
     # pdfsam was pdfsam-basic
 
   ### Accessories
-    apt -y install anki cherrytree evince synapse plank meld fdupes
+    apt -y install anki cherrytree evince synapse plank meld dupeguru fdupes
 
   ### Networking
     apt -y install akregator quiterss filezilla wireshark
