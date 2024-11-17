@@ -145,16 +145,20 @@ sysctl vm.swappiness=10
     # snap install emby-server
 
   ### Flatpak Repository
-    flatpak install anydesk
-    flatpak install yacreader
-    flatpak install lime3ds # fork of citra, continuing it. citra is dead.
-    flatpak install freedownloadmanager # alternative - (xdman? [xtreme download manager])
+    flatpak --assumeye install anydesk
+    flatpak --assumeye install yacreader
+    flatpak --assumeye install lime3ds # fork of citra, continuing it. citra is dead.
+    flatpak --assumeye install freedownloadmanager # alternative - (xdman? [xtreme download manager])
 
   ### From External Repositories
     apt -y install veracrypt
 
-  ### Broken automation packages - ncurses gets in the way even with -y
-    apt -y install wireshark
+  #########################################################
+  ## Requires Manual Intervention
+  #########################################################
+
+  ### Broken automation packages - install manually - ncurses gets in the way even with -y
+    # apt -y install wireshark
 
   ## Manual Installation - Need to download .deb from official website
     # sudo apt install ./teamviewer.deb
