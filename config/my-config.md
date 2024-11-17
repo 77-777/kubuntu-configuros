@@ -62,7 +62,7 @@ sudo apt install ./<deb_file>.deb
     apt -y install pass keepass2 timeshift
 
   ### Multimedia
-    apt -y install vlc audacity handbrake lmms openshot-qt cheese
+    apt -y install vlc audacity handbrake lmms openshot-qt cheese obs-studio
 
   ### Graphics
     apt -y install gimp blender inkscape imagemagick xpaint
