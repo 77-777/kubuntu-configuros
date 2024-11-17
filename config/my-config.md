@@ -29,7 +29,9 @@ add-apt-repository ppa:<repo_name>/encryption -y
 # Change su password, as you cannot login directly. Root is locked by default.
 sudo passwd root
 
-# Change scheduler (as su)
+# Change scheduler (as su) - More info here - https://unix.stackexchange.com/questions/375600/how-to-enable-and-use-the-bfq-scheduler
+sudo modprobe bfq
+
 echo bfq > /sys/block/nvme0n1/queue/scheduler
 cat /sys/block/nvme0n1/queue/scheduler
 
@@ -69,7 +71,7 @@ sysctl vm.swappiness=10
 
   ## Diagnostic Tools
     apt -y install htop neofetch net-tools util-linux sysstat iotop nethogs iftop, nmon, nmap, glances, radeontop # intel-gpu-tools
-    # List: h/top, iostat, vmstat, iotop, lsof, ps, lshw, lspci, lsusb nethogs, iftop, nmon, lsblk, df, nmap, glances, radeontop, aptitude # intel_gpu_top
+    # List: h/top, iostat, vmstat, iotop, lsof, ps, lshw, lspci, lsusb, modprobe, nethogs, iftop, nmon, lsblk, df, nmap, glances, radeontop, aptitude # intel_gpu_top
 
   ### Terminal
     apt -y install tmux mc irssi rtorrent lynx tty-clock slock weechat scrot
