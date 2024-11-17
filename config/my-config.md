@@ -46,16 +46,19 @@ sudo apt autoremove
   #########################################################
 
   ### Essentials
-    apt -y install gcc g++ gpg git make default-jdk util-linux alsa-utils net-tools
+    apt -y install gcc g++ gpg git make default-jdk alsa-utils gdebi # find what out this one does.
     # was openjdk and coreutils-full
 
   ### Preliminary
-    apt -y install nano vim emacs htop tree neofetch wget unrar 7zip rsync secure-delete ssh
+    apt -y install nano vim emacs tree wget unrar 7zip rsync secure-delete ssh curl
     # was openssh and srm
+
+  ## Diagnostics - commandline diagnostic tools for: disk, memory, io, cpu, threads, processes, etc.
+    apt -y install htop neofetch net-tools util-linux sysstat iotop nethogs iftop, nmon, nmap
+    # List: h/top, iostat, vmstat, iotop, lsof, ps, nethogs, iftop, nmon, lsblk, df, nmap
 
   ### Terminal
     apt -y install tmux mc irssi rtorrent lynx tty-clock slock weechat scrot
-    # need commandline diagnostic tools for: disk, memory, io, cpu, threads, processes, etc.
 
   ### Browser
     apt -y install firefox chromium
