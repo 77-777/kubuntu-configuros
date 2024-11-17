@@ -145,10 +145,10 @@ sysctl vm.swappiness=10
     # snap install emby-server
 
   ### Flatpak Repository
-    flatpak --assumeye install anydesk
-    flatpak --assumeye install yacreader
-    flatpak --assumeye install lime3ds # fork of citra, continuing it. citra is dead.
-    flatpak --assumeye install freedownloadmanager # alternative - (xdman? [xtreme download manager])
+    flatpak --assumeyes install anydesk
+    flatpak --assumeyes install yacreader
+    flatpak --assumeyes install lime3ds # fork of citra, continuing it. citra is dead.
+    flatpak --assumeyes install freedownloadmanager # alternative - (xdman? [xtreme download manager])
 
   ### From External Repositories
     apt -y install veracrypt
