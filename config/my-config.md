@@ -78,7 +78,7 @@ sysctl vm.swappiness=10
     # was openssh and srm
 
   ## Diagnostic Tools
-    apt -y install htop neofetch net-tools util-linux sysstat iotop nethogs iftop, nmon, nmap, glances, radeontop # intel-gpu-tools
+    apt -y install htop neofetch net-tools util-linux sysstat iotop nethogs iftop nmon nmap glances radeontop # intel-gpu-tools
     # List: h/top, iostat, vmstat, iotop, lsof, ps, lshw, lspci, lsusb, modprobe, systemctl, nethogs, iftop, nmon, lsblk, df, nmap, glances, radeontop, aptitude intel_gpu_top
 
   ### Terminal
@@ -134,12 +134,13 @@ sysctl vm.swappiness=10
     snap install discord
     snap install nushell --classic
     snap install opera
-    snap install xmind # minder may be opensource alternative to it?
+    snap install xmind # minder may be opensource alternative to it? no. freemind is better.
+    snap install freemind
     snap install sublime-text --classic
     snap install code --classic
     snap install dolphin-emulator
     snap install ppsspp-emu
-    # snap install element-desktop # already comes installed.
+    snap install element-desktop
     # snap install emby-server
 
   ### Flatpak Repository
